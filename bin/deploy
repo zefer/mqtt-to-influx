@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker save mqtt-to-influx > mqtt-to-influx.tar
+scp mqtt-to-influx.tar curtis:/volume1/docker/images

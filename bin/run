@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker rm mqtt-to-influx
+docker run -it --env INFLUXDB_URL=$INFLUXDB_URL --env MQTT_HOST=$MQTT_HOST --name mqtt-to-influx mqtt-to-influx
