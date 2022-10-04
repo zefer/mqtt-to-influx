@@ -4,6 +4,11 @@ This listens to MQTT topics from [atmos](https://github.com/zefer/atmos) and
 sends them to an InfluxDB database, so they can be plotted on a Grafana
 dashboard.
 
+## TODO
+
+Consider moving this to the atmos repo, unless it becomes a more generic MQTT
+to InfluxDB service.
+
 ## Links
 
 - [atmos](https://github.com/zefer/atmos)
